@@ -1,5 +1,6 @@
 # Expected output
-```Distances from 1:
+```
+Distances from 1:
 6: 6 (Path: 1, 2, 3, 4, 5, 6)
 8: 4 (Path: 1, 2, 3, 8)
 9: 3 (Path: 1, 11, 10, 9)
@@ -8,4 +9,4 @@
 22: 4 (Path: 1, 2, 21, 22)
 
 Exit vertex: 9
-Path: 1, 11, 10, 9```
+Path: 1, 11, 10, 9
