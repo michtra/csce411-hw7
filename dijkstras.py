@@ -19,9 +19,9 @@ def dijkstra(graph, start):
 
     # Q = priority queue of vertices
     Q = []
-    for vertex in graph:
-        # (distance, vertex) pairs in the heap
-        heapq.heappush(Q, (distances[vertex], vertex))
+
+    # only start with the source vertex in the queue
+    heapq.heappush(Q, (distances[start], start))
 
     # while not empty, poll the priority queue
     while Q:
